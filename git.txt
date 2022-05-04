@@ -1,0 +1,35 @@
+how to add foregin key through comand.
+
+git config --global user.name "Pramod"
+git config --global user.email "pkpandit151197@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "pkpandit151197@gmail.com"
+
+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
+
+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
+
+
+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
+
+
+myfirst_notes
+
+git init
+pramod@pramod-Inspiron-5559:~/Desktop/core$ git init
+Initialized empty Git repository in /home/pramod/Desktop/core/.git/
+
+pramod@pramod-Inspiron-5559:~/Desktop/core$ git add .
+pramod@pramod-Inspiron-5559:~/Desktop/core$ git commit -m  "testing add"
+[master (root-commit) fd5e925] testing add
+ 2 files changed, 94 insertions(+)
+ create mode 100644 notes.rb
+ create mode 100644 test.rb
+pramod@pramod-Inspiron-5559:~/Desktop/core$ git status
+On branch master
+nothing to commit, working tree clean
+ 
+ 
+ git init
+ git add .
+ git remote add origin https://github.com/Pramodblog/demofile.git
+ git push -u origin master
